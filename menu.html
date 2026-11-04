@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu | Brunch Cafe Deerfield</title>
+<meta name="description" content="Omelets, skillets, eggs Benedict, chilaquiles, pancakes, crepes, sandwiches, salads, fresh juices, coffee and a full bar at Brunch Cafe in Deerfield, IL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><i>🍳</i>Brunch <span>Cafe</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" aria-current="page">Menu</a></li>
+      <li><a href="events.html">Showers &amp; Catering</a></li>
+      <li><a href="visit.html">Visit</a></li>
+    </ul>
+    <div class="nav-right">
+      <a class="btn primary sm" href="tel:+18476079170">Call (847) 607-9170</a>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="banner">
+  <div class="wrap">
+    <h1>The Menu</h1>
+    <p>Classic breakfast dishes, sandwiches, salads and more. Breakfast, brunch and lunch, made to order.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="tabs" role="tablist" aria-label="Menu categories">
+      <button role="tab" aria-selected="true" data-t="eggs">Eggs &amp; Omelets</button>
+      <button role="tab" aria-selected="false" data-t="sweet">Pancakes &amp; Crepes</button>
+      <button role="tab" aria-selected="false" data-t="lunch">Sandwiches &amp; Salads</button>
+      <button role="tab" aria-selected="false" data-t="kids">Kids</button>
+      <button role="tab" aria-selected="false" data-t="drinks">Coffee, Juice &amp; Bar</button>
+    </div>
+
+    <div class="tabpanel show" id="eggs" role="tabpanel">
+      <div class="menu-grid">
+        <div class="item"><div class="row"><b>Omelets</b><span class="price">$—</span></div><span class="d">Made to order with your choice of fillings.</span></div>
+        <div class="item"><div class="row"><b>Skillets</b><span class="price">$—</span></div><span class="d">Hearty and hot, served in the skillet.</span></div>
+        <div class="item"><div class="row"><b>Eggs Benedict</b><span class="price">$—</span></div><span class="d">A brunch classic.</span></div>
+        <div class="item"><div class="row"><b>Frittata</b><span class="price">$—</span></div><span class="d">Baked eggs with fresh ingredients.</span></div>
+        <div class="item"><div class="row"><b>Eggs with Corned Beef Hash</b><span class="price">$—</span></div><span class="d">A popular pick.</span></div>
+        <div class="item"><div class="row"><b>Chilaquiles</b><span class="price">$—</span></div><span class="d">A guest favorite.</span></div>
+        <div class="item"><div class="row"><b>Hash Browns</b><span class="price">$—</span></div><span class="d">Crispy, on the side or alongside any plate.</span></div>
+      </div>
+    </div>
+
+    <div class="tabpanel" id="sweet" role="tabpanel">
+      <div class="menu-grid">
+        <div class="item"><div class="row"><b>Blueberry Pancakes</b><span class="price">$—</span></div><span class="d">Fluffy stacks, made to order.</span></div>
+        <div class="item"><div class="row"><b>Crepes</b><span class="price">$—</span></div><span class="d">Sweet and classic.</span></div>
+      </div>
+    </div>
+
+    <div class="tabpanel" id="lunch" role="tabpanel">
+      <div class="menu-grid">
+        <div class="item"><div class="row"><b>Sandwiches</b><span class="price">$—</span></div><span class="d">Hearty midday options.</span></div>
+        <div class="item"><div class="row"><b>Salads</b><span class="price">$—</span></div><span class="d">Fresh and light. Healthy, vegetarian and vegan options available.</span></div>
+      </div>
+    </div>
+
+    <div class="tabpanel" id="kids" role="tabpanel">
+      <div class="menu-grid">
+        <div class="item"><div class="row"><b>Kids' Menu</b><span class="price">$—</span></div><span class="d">Smaller plates for smaller appetites. High chairs available.</span></div>
+      </div>
+    </div>
+
+    <div class="tabpanel" id="drinks" role="tabpanel">
+      <div class="menu-grid">
+        <div class="item"><div class="row"><b>Coffee</b><span class="price">$—</span></div><span class="d">Freshly brewed. Guests rave about it.</span></div>
+        <div class="item"><div class="row"><b>Fresh-squeezed Juices</b><span class="price">$—</span></div><span class="d">Squeezed fresh, including beet juice.</span></div>
+        <div class="item"><div class="row"><b>Beer &amp; Wine</b><span class="price">$—</span></div><span class="d">Pair it with brunch.</span></div>
+        <div class="item"><div class="row"><b>Cocktails</b><span class="price">$—</span></div><span class="d">From our onsite bar.</span></div>
+      </div>
+    </div>
+
+    <p class="note"><b>For the restaurant:</b> this menu uses the dishes named in the public listing. Replace the "$—" prices and short descriptions with the real menu, and tag items with <code>&lt;span class="tag"&gt;V&lt;/span&gt;</code> (vegetarian) or <code>VG</code> (vegan).</p>
+  </div>
+</section>
+
+<div class="band">
+  <div class="wrap">
+    <h2>Order for pickup or delivery</h2>
+    <p>Call us and we'll have it ready, or ask about curbside and delivery.</p>
+    <a class="btn primary" href="tel:+18476079170">(847) 607-9170</a>
+  </div>
+</div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Brunch Cafe – Deerfield</h4>
+        <p>Contemporary American brunch, sandwiches and salads.<br>250 Lake Cook Rd, Deerfield, IL 60015<br><a href="tel:+18476079170">(847) 607-9170</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul><li><a href="menu.html">Menu</a></li><li><a href="events.html">Showers &amp; Catering</a></li><li><a href="visit.html">Hours &amp; Directions</a></li></ul>
+      </div>
+      <div>
+        <h4>Good to know</h4>
+        <ul><li>Wheelchair accessible</li><li>Free Wi-Fi</li><li>Family-friendly · Kids' menu</li><li>LGBTQ+ friendly</li></ul>
+      </div>
+    </div>
+    <div class="legal">© <span class="yr"></span> Brunch Cafe – Deerfield. All rights reserved.</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
