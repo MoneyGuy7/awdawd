@@ -1,30 +1,31 @@
-BRUNCH CAFE DEERFIELD - WEBSITE HAND-OFF
-=========================================
+BRUNCH CAFE DEERFIELD - WEBSITE HAND-OFF (v2)
+==============================================
 
 FILES
   index.html    Home
-  menu.html     Tabbed menu
-  events.html   Bridal/baby showers, groups, catering + inquiry form
-  visit.html    Hours, map, directions, accessibility, parking
-  styles.css    All styling (colors are CSS variables at the top)
-  script.js     Mobile nav, menu tabs, form demo, scroll animation
+  menu.html     Full menu board with prices (sample prices, see below)
+  events.html   Showers, groups, catering, how it works, FAQ, inquiry form
+  visit.html    Address, hours, directions, FAQ
+  styles.css    All styling. Brand colors are variables at the top (black / orange)
+  script.js     Tiny: mobile menu toggle + demo form
 
-TO PREVIEW: open index.html in any browser (no build step).
-TO LAUNCH: upload the whole folder to any static host (Netlify, GitHub Pages,
-Cloudflare Pages, or the restaurant's existing host) and point their domain at it.
+PERFORMANCE
+  No external fonts, no embedded map, no animations, no images to load.
+  Whole site is about 40 KB. Loads instantly, even on slow phones.
 
-BEFORE LAUNCH - THE RESTAURANT MUST PROVIDE / CONFIRM
-  [ ] Full weekly hours (visit.html)
-  [ ] Real menu items + prices (menu.html, replace "$-" placeholders)
-  [ ] Real photos of food and the space (add to home/menu pages)
-  [ ] Online ordering link (Uber Eats / their ordering platform) - add a button
-  [ ] Reservation method (phone only now; add OpenTable/Resy link if used)
-  [ ] Inquiry form: currently a front-end demo only. Connect it to an email
-      service (Formspree, Netlify Forms, etc.) in events.html / script.js
-  [ ] Social links (Instagram, Facebook), if any
-  [ ] Owner approval of all wording
-  [ ] Optional: add real customer reviews ONLY with permission of the reviewers
+TO PREVIEW: open index.html in a browser.
+TO LAUNCH: upload the folder to any static host (Netlify, Cloudflare Pages,
+GitHub Pages) or the restaurant's host, and point their domain at it.
 
-SEO
-  Home page includes Restaurant structured data (name, address, phone, rating).
-  Update the rating and review count if they change.
+BEFORE LAUNCH
+  [ ] Replace SAMPLE PRICES in menu.html with real ones, then delete the
+      yellow "Draft note" box. Add the real dish names from their menu.
+  [ ] Full weekly hours in visit.html (delete the yellow hours box).
+  [ ] Real photos of food and the room. Easiest spot: a photo block in the
+      home hero and above each menu section.
+  [ ] Online ordering link (their own platform) - add a button in the header.
+  [ ] Reservation link if they use OpenTable/Resy.
+  [ ] Inquiry form is a front-end demo. Connect it to Formspree/Netlify Forms.
+  [ ] Owner approval of wording.
+  [ ] Add customer reviews only with the reviewers' permission.
+  [ ] Add sitemap.xml and a Google Business Profile link once the domain is set.
