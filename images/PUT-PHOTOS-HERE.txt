@@ -1,0 +1,9 @@
+Drop the restaurant's real photos in this folder using these exact names (JPG, ideally under 300 KB each):
+
+  hero.jpg     wide shot for the top of the home page (food or dining room)
+  food1.jpg    plate photo, home page
+  food2.jpg    plate photo, home page
+  food3.jpg    plate photo, home page
+  events.jpg   the room set up for a shower or group
+
+If a file is missing, that spot is simply left out of the page. Nothing breaks.
